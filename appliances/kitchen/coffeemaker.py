@@ -1,4 +1,4 @@
-def CoffeeMaker(Appliance):
+class CoffeeMaker(Appliance):
 
     def __init__(self, color):
         super.__init__(color)

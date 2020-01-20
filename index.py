@@ -1,16 +1,19 @@
-from appliances.kitchen import Dishwasher
-from appliances.laundry import Dryer
-from appliances.laundry import Washer
-from appliances.kitchen.utility import Refrigerator
+from appliances import Appliance, CoffeeMaker
+# , DishWasher, Refrigerator, Dryer, Washer, AirConditioner
 
-whirlpool_dishwasher = Dishwasher("black")
-whirlpool_dishwasher.wash_dishes()
+# Clone this repo and refactor it to make it run error-free. Run index.py and use the error message to figure out where to start. Once the errors are gone, create a can opener and open a can (But hold your nose!)
 
-samsung_washer = Washer("red")
-samsung_dryer = Dryer("red", "gas")
+# whirlpool_dishwasher = Dishwasher("black")
+# whirlpool_dishwasher.wash_dishes()
 
-lg_fridge = Refrigerator("stainless")
-lg_fridge.make_ice()
+# samsung_washer = Washer("red")
+# samsung_dryer = Dryer("red", "gas")
 
-mr_coffee = CoffeeMaker("white")
-mr_coffee.make_coffee()
+# lg_fridge = Refrigerator("stainless")
+# lg_fridge.make_ice()
+
+# mr_coffee = CoffeeMaker("white")
+# print(type(mr_coffee))
+# mr_coffee.make_coffee()
+
+
